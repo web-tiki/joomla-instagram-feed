@@ -2,7 +2,7 @@
 <extension type="module" version="3.8" client="site" method="upgrade">
     <name>Instagram feed</name>
     <author>web-tiki</author>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <description>Module to display an instagram feed: latest posts of a public account</description>
     <files>
         <filename>mod_instagramfeed.xml</filename>

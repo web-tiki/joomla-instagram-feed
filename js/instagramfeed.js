@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 	const instaFeedWrap = jQuery('#instagramFeed');
 	const instaId = instaFeedWrap.data('instaid');
 	const maxPosts = instaFeedWrap.data('maxposts');
-	const maxThumbSize = instaFeedWrap.data('thumbSize');
+	const maxThumbSize = instaFeedWrap.data('thumbsize');
 
 	let viewportW = jQuery(window).width(),
 		postCount = maxPosts,
