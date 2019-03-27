@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+    <name>Instagram feed</name>
+    <author>web-tiki</author>
+    <version>0.0.1</version>
+    <description>Module to display an instagram feed: latest posts of a public account</description>
+    <files>
+        <filename>mod_instagramfeed.xml</filename>
+        <filename module="mod_instagramfeed">mod_instagramfeed.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>helpers</folder>
+        <folder>tmpl</folder>
+        <folder>js</folder>
+        <folder>css</folder>
+    </files>
+    <updateservers>
+		<server type="extension" priority="1" name="Instagram feed Update Server at GitHub"><![CDATA[https://web-tiki.github.io/joomla-instagram-feed/updateserver.xml]]></server>
+    </updateservers>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="instaID" type="text" default="" label="Instagram id"></field>
+			</fieldset>
+            <fieldset name="basic">
+				<field name="postNb" type="number" default="" label="Number of posts to display"></field>
+			</fieldset>
+		</fields>
+    </config>
+</extension>
