@@ -5,7 +5,6 @@
         <description>Module to display an instagram feed: latest posts of a public account version 0.0.3</description>
         <element>instagramfeed</element>
         <type>module</type>
-        <client>0</client>
         <version>0.0.3</version>
         <infourl title="Instagram feed for joomla by web-tiki">https://github.com/web-tiki/joomla-instagram-feed</infourl>
         <downloads>
