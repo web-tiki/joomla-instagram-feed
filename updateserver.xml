@@ -3,9 +3,10 @@
     <update>
         <name>Instagram feed</name>
         <description>Module to display an instagram feed: latest posts of a public account version 0.0.3</description>
-        <element>instagramfeed</element>
+        <element>mod_instagramfeed</element>
         <type>module</type>
         <version>0.0.3</version>
+        <client>0</client>
         <infourl title="Instagram feed for joomla by web-tiki">https://github.com/web-tiki/joomla-instagram-feed</infourl>
         <downloads>
             <downloadurl type="full" format="zip">https://github.com/web-tiki/joomla-instagram-feed/archive/master.zip</downloadurl>
