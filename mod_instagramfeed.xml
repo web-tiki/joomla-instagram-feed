@@ -9,7 +9,6 @@
         <filename module="mod_instagramfeed">mod_instagramfeed.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
-        <folder>helpers</folder>
         <folder>tmpl</folder>
         <folder>js</folder>
         <folder>css</folder>
