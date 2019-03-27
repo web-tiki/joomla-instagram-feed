@@ -8,7 +8,6 @@
         <filename>mod_instagramfeed.xml</filename>
         <filename module="mod_instagramfeed">mod_instagramfeed.php</filename>
         <filename>index.html</filename>
-        <filename>helper.php</filename>
         <folder>tmpl</folder>
         <folder>js</folder>
         <folder>css</folder>
@@ -20,9 +19,9 @@
 		<fields name="params">
 			<fieldset name="basic">
 				<field name="instaID" type="text" default="" label="Instagram id"></field>
-			</fieldset>
-            <fieldset name="basic">
-				<field name="postNb" type="number" default="" label="Number of posts to display"></field>
+				<field name="postNb" type="number" default="" label="Number of posts to display" step="1"></field>
+        <field name="thumbSize" type="number" default="" label="Thumbnail size"
+          min="0" max="4" step="1"></field>
 			</fieldset>
 		</fields>
     </config>

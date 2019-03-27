@@ -14,8 +14,11 @@
 
 // No direct access
 defined('_JEXEC') or die;
-// Include the syndicate functions only once
-require_once dirname(__FILE__) . '/helper.php';
 
-$instagramFeed = modHelloWorldHelper::getInstagramFeed($params);
+
+// Get the params form the module configuration
+$instagramFeed = JModuleHelper::getModule('instagramfeed');
+$instagramFeedParams = new JRegistry($instagramFeed->params);
+
+
 require JModuleHelper::getLayoutPath('mod_instagramfeed');
